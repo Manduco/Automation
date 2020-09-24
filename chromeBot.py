@@ -1,5 +1,4 @@
 from selenium import webdriver
-import chromedriver_binary  # Adds chromedriver binary to path
 
-driver = webdriver.Chrome()
-driver.get("http://www.python.org")
+browser = webdriver.Chrome('/usr/local/bin/chromedriver')
+browser.get("https://elmocheroausente.com/")
