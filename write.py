@@ -4,11 +4,12 @@
 # by Armando Zincke
 
 import glob, os
+import datetime
 from os import path
 #os import docs https://docs.python.org/3/library/os.html
 
-global folder
-folder = "File_Name_Here"
+global File_Name , Files_found
+File_Name = "File_Name_Here"
 #define vars
 Folders_found = 0
 Files_found = 0
@@ -30,40 +31,46 @@ def stats_Update():
 
     now = datetime.datetime.now()
     format_date = now.strftime("%Y-%m-%d %H:%M:%S")
-    stats = open("../../Convert_stats.txt","a+")
-    stats.write("Folder: "+ folder +" .wav converted: "+str(Num_of_Wav_converted)+" on: "+ str(format_date)+ " \n")
+    stats = open("file.txt","a+")
+    stats.write("in "+ Dir_current +" contains "+str(Files_found)+" on: "+format_date+"  \n")
     stats.close()
+    print("file.txt has been updated")
 
 
 # Scirpt process Below {
 
 #changes current working dir
 print(os.path.abspath(os.curdir))
+Dir_current = os.path.abspath(os.curdir)
 #os.chdir(Dir_Root) #change dir if needed
 #Print_below_shows_current_dir_the_script_is_Working_in_
 #print(os.path.abspath(os.curdir))
 
 print("\n --------------Start----------------")
-print(" --- press enter to start sreach --- ")
+#---IMPORTANT DIR MGT
+#Dir_current.split("/", 5)[-1]
+#^ SHOWS current working folder wont always work uses delimilter
+Dir_current = Dir_current.split("/", 5)[-1]
 
-for folder in glob.glob(Dir_Sub_Wildcard):
+for File_Name in glob.glob(Dir_Sub_Wildcard):
 
-    Folders_found += 1
-    print(" -- "+folder)
+    Files_found += 1
+    #Dir_current.split("/", 1)[-1]
+    #print(" -- "+File_Name)
     #changes current working dir
     #os.chdir(folder)
     #print("\n Current Directory" + " >>> "+Dir_Root+"/"+"---| ")
 
     #find all .WAV in current dir
-    for file in glob.glob("*.wav"):
+    #for file in glob.glob("*.wav"):
         #print(" -- "+file)
-        Files_found += 1
+        #Files_found += 1
         #loop ends
     #find all .mp3 in current dir
 
 
 #what if we have mp3s's in the dir?
-
+stats_Update()
     #os.chdir(Dir_Return)
 
 
