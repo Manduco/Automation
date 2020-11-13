@@ -3,12 +3,7 @@
 global Output_string
 some_string = ''
 
-while len(input("enter something ")) >= 4:
-    if True:
-        print("input was too long try again")
-        some_string = input("enter something ")
-    else :
-        print("goodinput")
+some_string = input("enter something ")
 
 k = len(some_string)
 print("you entered : "+ some_string)
@@ -84,3 +79,6 @@ for Sub_String in some_string:
         Output_string = Output_string + emepty
 print("output: "+ Output_string + " = "+str(len(Output_string)))
 print("\n")
+
+#110000111010100000010100111000111000100010
+#000001110000111010100000010100111000111000100010
