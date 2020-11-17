@@ -22,7 +22,7 @@ v,w,x,y,z = "111001","010111","101101","101111","101011"
 emepty = "000000"
 
 for Sub_String in some_string:
-    print(Sub_String, end=' \n')
+    #print(Sub_String, end=' \n')
     if Sub_String == 'a':
         Output_string = Output_string + a
     if Sub_String == 'b':
