@@ -23,5 +23,5 @@ print(data["Tracking_files"]["files"][0]["file_name"])
 print(data["Tracking_files"]["files"][0]["Last_Date_Mod"])
 
 #write update json to file
-with open('data.txt', 'w') as outfile:
+with open('data1.txt', 'w') as outfile:
     json.dump(data,outfile, indent=2)
