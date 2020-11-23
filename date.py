@@ -3,11 +3,12 @@ import datetime, os.path, time, json
 FileToTest = "file.txt"
 now = datetime.datetime.now()
 file_lastdateM = " -date-"
+file_madeOn = "startdate"
 
 #file data on files I files i want tracked
 #print ("Current date and time : " + now.strftime("%Y-%m-%d %H:%M:%S"))
-#file_lastdateM = str(time.ctime(os.path.getmtime(FileToTest)))
-#print(FileToTest +" Created: %s" % time.ctime(os.path.getctime(FileToTest)))
+file_lastdateM = str(time.ctime(os.path.getmtime(FileToTest)))
+print(FileToTest +" Created: %s" % time.ctime(os.path.getctime(FileToTest)))
 #print(file_lastdateM)
 
 with open('date.json') as f:
@@ -23,5 +24,5 @@ print(data["Tracking_files"]["files"][0]["file_name"])
 print(data["Tracking_files"]["files"][0]["Last_Date_Mod"])
 
 #write update json to file
-with open('data1.txt', 'w') as outfile:
+with open('date.json', 'w') as outfile:
     json.dump(data,outfile, indent=2)
