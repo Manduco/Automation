@@ -4,7 +4,7 @@ FileToTest = "file.txt"
 CurrentDate = str(datetime.datetime.now())
 LastDayRan= "-date-"
 file_lastdateM = "-date-"
-file_madeOn = "startdate"
+file_madeOn = "-startdate-"
 file_Datecreated = "-dateMade-"
 
 #file data on files I files i want tracked
