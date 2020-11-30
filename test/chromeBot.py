@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-Purchased_Made = False;
+#Purchased_Made = False;
 
 
 driver = webdriver.Chrome()
