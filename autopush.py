@@ -8,5 +8,6 @@ def git_push():
     repo.index.commit('Auto description')
     origin = repo.remote('origin')
     origin.push()
+    print("pushing to repo")
 
 git_push()
