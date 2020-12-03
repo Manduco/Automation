@@ -5,27 +5,28 @@ One_Day_In_Seconds = 86400
 Twelve_hours = One_Day_In_Seconds/2
 Six_hours = Twelve_hours/2
 Test_num = 500
+One_Min = 60
 One_Secound = 1
 KeepRunning = True
 
 def main():
-    Count_At = int(5)
-    Reset_Timer = 5
+    Ding_Every = int(One_Min)
+    Reset_Timer = One_Min
 
     while (KeepRunning):
 
-        Format_time = convert(Count_At)
+        Format_time = convert(Ding_Every)
         time.sleep(One_Secound)
-        Count_At -= 1
+        Ding_Every -= 1
 
         print('\033[H\033[J', end='')
         print("Time till Code Push ",end=" ")
         print(":",str(Format_time))
 
-        if(Count_At == 0):
-            time.sleep(One_Secound)
-            Count_At = Reset_Timer
-            playsound("ding.mp3",False)
+        if(Ding_Every == 0):
+            
+            Ding_Every = Reset_Timer
+            playsound("ding.mp3",True)
             
 # converts seconds
 def convert(seconds): 
