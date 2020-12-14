@@ -3,13 +3,12 @@ import time, os
 One_Day_In_Seconds = 86400
 Twelve_hours = One_Day_In_Seconds/2
 Six_hours = Twelve_hours/2
-Test_num = 500
+Test_num = 10
 One_Secound = 1
 KeepRunning = True
 
 def main():
     Count_At = int(30)
-
     while (KeepRunning):
 
         Format_time = convert(Count_At)

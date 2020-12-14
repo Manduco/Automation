@@ -1,6 +1,4 @@
-import glob, os
-import datetime
-from os import path
+import glob, os , datetime
 #os import docs https://docs.python.org/3/library/os.html
 
 global File_Name , Files_found
