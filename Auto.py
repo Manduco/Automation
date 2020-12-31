@@ -8,14 +8,14 @@ One_Secound = 1
 KeepRunning = True
 
 def main():
-    Count_At = int(30)
+    Count_At = int(10)
     while (KeepRunning):
 
         Format_time = convert(Count_At)
         time.sleep(One_Secound)
         Count_At -= 1
 
-        print('\033[H\033[J', end='')
+        print("\033[H\033[J", end="")
         print("Time till Code Push ",end=" ")
         print(":",str(Format_time))
 
