@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 autoadd
 in Automation contains 14 on: 2020-11-28 19:23:48  
 in Automation contains 14 on: 2020-11-28 19:24:16  
@@ -54,3 +55,49 @@ in Automation contains 8 on: 2020-11-29 19:59:48
  C:\Users\arman\Desktop\testing\Automation Dir contains 10 Ran on: 2021-01-06 06:22:50  
  C:\Users\arman\Desktop\testing\Automation Dir contains 10 Ran on: 2021-01-06 12:26:23  
  C:\Users\arman\Desktop\testing\Automation Dir contains 10 Ran on: 2021-01-06 18:29:46  
+=======
+autoadd
+in Automation contains 14 on: 2020-11-28 19:23:48  
+in Automation contains 14 on: 2020-11-28 19:24:16  
+in Automation contains 14 on: 2020-11-28 19:24:35  
+in Automation contains 15 on: 2020-11-29 13:38:19  
+in Automation contains 8 on: 2020-11-29 19:21:23  
+in Automation contains 8 on: 2020-11-29 19:59:48  
+ AutomationDir contains 10 Ran on: 2020-11-29 20:28:27  
+ Automation Dir contains 10 Ran on: 2020-11-29 20:29:58  
+ Automation Dir contains 10 Ran on: 2020-11-30 02:31:28  
+ Automation Dir contains 10 Ran on: 2020-11-30 08:32:53  
+ Automation Dir contains 10 Ran on: 2020-11-30 14:34:27  
+ Automation Dir contains 10 Ran on: 2020-11-30 20:36:02  
+ Automation Dir contains 10 Ran on: 2020-12-01 21:32:33  
+ Automation Dir contains 14 Ran on: 2020-12-04 17:17:15  
+ Automation Dir contains 14 Ran on: 2020-12-06 20:36:54  
+ Automation Dir contains 14 Ran on: 2020-12-07 15:17:46  
+ Automation Dir contains 14 Ran on: 2020-12-07 21:19:00  
+ Automation Dir contains 14 Ran on: 2020-12-08 09:15:12  
+ Automation Dir contains 14 Ran on: 2020-12-08 22:14:52  
+ Automation Dir contains 14 Ran on: 2020-12-08 22:15:06  
+ Automation Dir contains 14 Ran on: 2020-12-08 22:15:20  
+ Automation Dir contains 14 Ran on: 2020-12-08 22:15:33  
+ Automation Dir contains 14 Ran on: 2020-12-08 22:15:47  
+ Automation Dir contains 14 Ran on: 2020-12-08 22:16:01  
+ Automation Dir contains 14 Ran on: 2020-12-08 22:16:14  
+ Automation Dir contains 14 Ran on: 2020-12-11 12:00:08  
+ Automation Dir contains 15 Ran on: 2020-12-14 16:19:58  
+ Automation Dir contains 16 Ran on: 2020-12-17 20:03:44  
+ Automation Dir contains 16 Ran on: 2020-12-22 10:49:31  
+ C:\Users\arman\Desktop\testing\Automation Dir contains 16 Ran on: 2020-12-22 15:44:40  
+ C:\Users\arman\Desktop\testing\Automation Dir contains 16 Ran on: 2020-12-22 21:47:27  
+ C:\Users\arman\Desktop\testing\Automation Dir contains 16 Ran on: 2020-12-23 03:50:12  
+ C:\Users\arman\Desktop\testing\Automation Dir contains 16 Ran on: 2020-12-23 09:52:57  
+ C:\Users\arman\Desktop\testing\Automation Dir contains 16 Ran on: 2020-12-23 15:55:44  
+ C:\Users\arman\Desktop\testing\Automation Dir contains 16 Ran on: 2020-12-23 21:58:29  
+ C:\Users\arman\Desktop\testing\Automation Dir contains 16 Ran on: 2020-12-23 23:25:47  
+ C:\Users\arman\Desktop\testing\Automation Dir contains 16 Ran on: 2020-12-24 05:28:10  
+ C:\Users\arman\Desktop\testing\Automation Dir contains 16 Ran on: 2020-12-24 11:30:29  
+ C:\Users\arman\Desktop\testing\Automation Dir contains 16 Ran on: 2020-12-24 17:32:52  
+ C:\Users\arman\Desktop\testing\Automation Dir contains 16 Ran on: 2020-12-24 23:35:12  
+ C:\Users\arman\Desktop\testing\Automation Dir contains 16 Ran on: 2020-12-25 05:37:33  
+ C:\Users\arman\Desktop\testing\Automation Dir contains 16 Ran on: 2020-12-25 11:39:59  
+ C:\Users\arman\Desktop\testing\Automation Dir contains 16 Ran on: 2020-12-25 15:16:52  
+>>>>>>> Stashed changes

@@ -1,20 +1,20 @@
 {
   "Tracking_files": {
-    "Date_last_ran": "2020-11-28 12:12:05.794164",
-    "file_count": 2,
     "files": [
       {
-        "file_name": "file.txt",
-        "Last_Date_Mod": "Thu Nov 12 17:33:15 2020",
-        "Last_Date_Mod2": "Thu Nov 12 17:33:15 2020",
-        "Date_created": "Thu Nov 12 23:36:24 2020"
-      },
+        "Date_created": "Tue Dec 22 15:25:36 2020", 
+        "file_name": "file.txt", 
+        "Last_Date_Mod2": "Thu Nov 12 17:33:15 2020", 
+        "Last_Date_Mod": "Wed Dec 23 21:58:29 2020"
+      }, 
       {
-        "file_name": "goognote.txt",
-        "Last_Date_Mod": "somedate",
-        "Last_Date_Mod2": "Thu Nov 12 17:33:15 2020",
-        "Date_created": "somedate"
+        "Date_created": "somedate", 
+        "file_name": "goognote.txt", 
+        "Last_Date_Mod2": "Thu Nov 12 17:33:15 2020", 
+        "Last_Date_Mod": "somedate"
       }
-    ]
+    ], 
+    "file_count": 2, 
+    "Date_last_ran": "2020-12-23 22:06:12.193000"
   }
 }
