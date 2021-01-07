@@ -21,8 +21,8 @@ def main():
 
         if(Count_At == 0):
             Count_At = Six_hours
-            os.system('python3 write.py')
-            os.system('python3 autopush.py')
+            os.system('python3 Auto_write.py')
+            os.system('python3 Auto_push.py')
           
 # converts seconds
 def convert(seconds): 
