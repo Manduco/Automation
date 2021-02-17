@@ -18,7 +18,10 @@ def main():
         time.sleep(One_Secound)
         Count_At -= 1
 
+<<<<<<< Updated upstream
         print("\033[H\033[J", end=" ")
+=======
+>>>>>>> Stashed changes
         print("Time till Code Push ", end=" ")
         print(":", str(Format_time))
 
