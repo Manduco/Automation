@@ -23,6 +23,8 @@
         - time, os >> Auto.py
         - git import Repo >> autopush.py
         - glob, os , datetime >> write.py
+    
+    # pip install GitPython
 
 [-]security issues or concerns i Am aware of:
     -no try/catch for fail points
