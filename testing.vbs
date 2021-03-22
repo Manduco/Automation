@@ -6,8 +6,24 @@ https://github.com/andreafortuna-org/VBAIPFunctions/blob/master/IPFunctions.vba
 '   Source: https://github.com/andreafortuna-org/VBAIPFunctions/blob/master/IPFunctions.vba
 '===================================================
 ' Return the mask len from a subnet
+'===================================================
+'   IpSubnetLen
+'   Source: https://github.com/andreafortuna-org/VBAIPFunctions/blob/master/IPFunctions.vba
+'===================================================
+' Return the mask len from a subnet
 Function IpSubnetLen(ByVal ip As String)
-    Debug.Print ip
+    Dim p As Integer
+    p = InStr(ip, "/")
+    If (p = 0) Then
+        p = InStr(ip, " ")
+        If (p = 0) Then
+            IpSubnetLen = 32
+        Else
+            IpSubnetLen = IpMaskLen(Mid(ip, p + 1))
+        End If
+    Else
+        IpSubnetLen = Val(Mid(ip, p + 1))
+    End If
 End Function
 
 Sub read_IP()
@@ -22,8 +38,10 @@ Sub read_IP()
             Debug.Print IP_Array(i - 1)
         Next i
 
-    IpSubnetLen ("test")
+    IpSubnetLen (2333)
     Debug.Print
 End Sub
+
+
 
 
