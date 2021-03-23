@@ -6,11 +6,7 @@ https://github.com/andreafortuna-org/VBAIPFunctions/blob/master/IPFunctions.vba
 '   Source: https://github.com/andreafortuna-org/VBAIPFunctions/blob/master/IPFunctions.vba
 '===================================================
 ' Return the mask len from a subnet
-'===================================================
-'   IpSubnetLen
-'   Source: https://github.com/andreafortuna-org/VBAIPFunctions/blob/master/IPFunctions.vba
-'===================================================
-' Return the mask len from a subnet
+
 Function IpSubnetLen(ByVal ip As String)
     Dim p As Integer
     p = InStr(ip, "/")
